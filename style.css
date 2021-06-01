@@ -180,12 +180,6 @@ h3 {
 
 /* skills-display */
 
-.grid-template-columns {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 140px;
-}
-
 .flex {
   display: flex;
   justify-content: center;
@@ -209,6 +203,10 @@ h3 {
   flex-wrap: wrap;
 }
 
+.flex-end {
+  justify-content: flex-end;
+}
+
 .flex div {
   margin: 18px 40px;
 }
@@ -224,7 +222,34 @@ h3 {
 .html,
 .figma,
 .banco-de-dados {
+  width: 366px;
+  min-height: 386px;
   background: rgba(196, 196, 196, 0.05);
+}
+
+.python img,
+.javascript img,
+.html img,
+.figma img {
+  width: 30%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.img-grid,
+.img-banco {
+  width: 100px;
+  height: 100px;
+}
+
+.text-skills {
+  padding: 1rem;
+  background: #ffffff12;
+}
+
+.text-skills p {
+  color: #fff;
+  text-align: center;
 }
 
 /* contact */
