@@ -90,6 +90,15 @@ h3 {
 }
 
 /*header*/
+.logo {
+  margin: 15px;
+  text-decoration: none;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #e5e5e5;
+}
 
 .header-portifolio {
   margin-left: 150px;
@@ -215,6 +224,10 @@ h3 {
 
 .skills h1 {
   color: #f2f2f2;
+}
+
+skill-section {
+  margin-bottom: 3rem;
 }
 
 .python,
