@@ -75,7 +75,8 @@ h3 {
 
 .divider-about-me {
   margin: 0 auto;
-  width: 150px;
+  width: 100px;
+  border: 1px solid;
 }
 
 .divider-skills {
@@ -256,6 +257,7 @@ skill-section {
 }
 
 .text-skills {
+  min-height: 100px;
   padding: 1rem;
   background: #ffffff12;
 }
@@ -350,4 +352,16 @@ footer {
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
+}
+
+@media (min-width: 520px) {
+  .divider-content,
+  .header-links {
+    display: none;
+  }
+
+  .main-container-img {
+    width: 250px;
+    height: 250px;
+  }
 }
