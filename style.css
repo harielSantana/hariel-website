@@ -354,7 +354,7 @@ footer {
   line-height: 16px;
 }
 
-@media (min-width: 520px) {
+@media only screen and (max-width: 730px) {
   .divider-content,
   .header-links {
     display: none;
@@ -363,5 +363,15 @@ footer {
   .main-container-img {
     width: 250px;
     height: 250px;
+  }
+}
+
+@media only screen and (max-width: 729px) {
+  header {
+    justify-content: center;
+  }
+
+  .header-portifolio {
+    margin-left: 0;
   }
 }
